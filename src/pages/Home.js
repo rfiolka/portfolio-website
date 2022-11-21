@@ -1,5 +1,4 @@
 import React from 'react'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import EmailIcon from '@material-ui/icons/Email'
 import GithubIcon from '@material-ui/icons/GitHub'
 import "../styles/Home.css"
@@ -10,10 +9,10 @@ function Home() {
     <div className="home"> 
     <div className="about">
       <h2>Hi, my name is Roksana</h2>
-      <div className='prompt'> <p>Recent university graduate with B.S in Computer Science with a passion for personal growth and for software development</p>
-    <LinkedInIcon />
-    <EmailIcon />
+      <div className='prompt'> <p>Recent university graduate with B.S in Computer Science with a passion for personal growth and for software development.</p>
+    <a href="https://github.com/rfiolka" target='_blank' rel="noreferrer">
     <GithubIcon />
+    </a>
     </div>
     </div>
     <div className='skills'>
