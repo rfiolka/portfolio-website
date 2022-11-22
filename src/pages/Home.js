@@ -1,5 +1,4 @@
 import React from 'react'
-import EmailIcon from '@material-ui/icons/Email'
 import GithubIcon from '@material-ui/icons/GitHub'
 import "../styles/Home.css"
 

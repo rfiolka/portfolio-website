@@ -1,5 +1,4 @@
-import { HashRouter } from "react-router-dom";
-import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Experience from './pages/Experience'
@@ -14,7 +13,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -23,7 +22,7 @@ function App() {
         <Route path="/experience" element={<Experience />} />
       </Routes>
       <Footer />
-    </HashRouter>
+    </Router>
     </div>
   );
 }
