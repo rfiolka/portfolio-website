@@ -14,7 +14,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
